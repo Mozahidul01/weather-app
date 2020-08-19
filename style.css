@@ -1,0 +1,127 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    color: #04051f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.title {
+    font-weight: 600;
+    color: #010114;
+    font-size: 50px;
+}
+
+.form-rounded {
+    border-radius: 2em;
+}
+
+.back-card {
+    border-radius: 35px !important;
+}
+
+.city-name {
+    position: absolute;
+    width: 100%;
+}
+
+.city-name p {
+    font-size: 30px;
+    margin-top: -15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.city-name span {
+    font-size: 25px;
+    color: #f5f7fa;
+    font-weight: 500;
+    position: relative;
+    top: -38px;
+}
+
+.card-body{
+    margin-top: -70px;
+}
+
+.card-mid {
+    line-height: 0.5;
+    padding-bottom: 18px;
+}
+
+.temp{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.condition {
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.high,
+.low{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.high::before {
+    content: '';
+    background: url('img/up.svg') no-repeat;
+    width: 10px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.low::before {
+    content: '';
+    background: url('img/down.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.icon-container {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #04051f;
+    margin: 10px 0;
+}
+
+.icon-container img {
+    margin: auto;
+}
+
+.card-bottom {
+    line-height: 0.8;
+}
+
+.weather-details {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.feel-temp,
+.humidity {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -4px;
+}
