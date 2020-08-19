@@ -53,7 +53,8 @@ updateWeatherApp = (city) => {
     temperature.textContent = spitOutCelsius(city.main.temp);
     weatherCondition.textContent = city.weather[0].description;
     highTemperature.textContent = spitOutCelsius(city.main.temp_max);
-    lowTemperature.textContent = spitOutCelsius(city.main.temp_min);  feelTemperature.textContent = spitOutCelsius(city.main.feels_like);
+    lowTemperature.textContent = spitOutCelsius(city.main.temp_min);
+    feelTemperature.textContent = spitOutCelsius(city.main.feels_like);
     humidity.textContent = city.main.humidity;
     weatherIcon.src = iconSrc;
 
@@ -82,8 +83,10 @@ searchForm.addEventListener('submit', submitLocation => {
     searchForm.reset();
 
     requestCity(citySearched)
-    .then((data) => {
-        updateWeatherApp(data);
-    })
-    .catch((error) => {console.log(error)} )
+        .then((data) => {
+            updateWeatherApp(data);
+        })
+        .catch((error) => {
+            console.log(error)
+        })
 });

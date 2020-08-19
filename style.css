@@ -47,7 +47,7 @@ body {
     top: -38px;
 }
 
-.card-body{
+.card-body {
     margin-top: -70px;
 }
 
@@ -56,7 +56,7 @@ body {
     padding-bottom: 18px;
 }
 
-.temp{
+.temp {
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     font-weight: 300;
@@ -72,7 +72,7 @@ body {
 }
 
 .high,
-.low{
+.low {
     font-size: 17px;
     font-weight: 500;
 }
