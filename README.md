@@ -31,7 +31,7 @@ I have used Open weather api for the first time to develop any website. It was a
 
 ### Useful resources
 
-- [Open Weather Website](hhttps://openweathermap.org/) - I have used Open weather map API
+- [Open Weather Website](https://openweathermap.org/) - I have used Open weather map API
 - [Google Map platform](https://developers.google.com/maps/documentation/javascript/place-autocomplete) - Google location suggest API .
 
 ## Author
