@@ -24,8 +24,7 @@
     <div class="container my-5">
         <h1 class="text-center title">Weather in</h1>
         <form class="search-location">
-            <input type="text" name="city" placeholder="Enter Your City Name"
-                class="form-control text-muted form-rounded p-4 shadow">
+            <input type="text" name="city" placeholder="Enter Your City Name" class="form-control text-muted form-rounded p-4 shadow" id="place">
         </form>
 
         <div class="card rounded my-3 shadow-lg d-none back-card">
@@ -69,8 +68,21 @@
 
 
     <!--  custom js file  -->
-    <script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmggO-BPaFq0SNEZ1pWTaj1fkeV67wijA&libraries=places"></script>
+<script src="app.js"></script>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+    let autocomplete;
+    let id = 'place';
+
+    autocomplete = new google.maps.places.Autocomplete((document.getElementById(id)), {
+        types : ['geocode'],
+    })
+
+})
+</script>
 </body>
 
 </html>

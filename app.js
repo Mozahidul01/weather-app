@@ -90,3 +90,7 @@ searchForm.addEventListener('submit', submitLocation => {
             console.log(error)
         })
 });
+
+
+// Place suggestions
+
