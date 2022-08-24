@@ -36,5 +36,5 @@ I have used Open weather api for the first time to develop any website. It was a
 
 ## Author
 
-- Website - [https://www.mozahidul.com]
-- Github - [https://github.com/mozahidul01]
+- [Website](https://www.mozahidul.com)
+- [Github](https://github.com/mozahidul01)
